@@ -1,0 +1,47 @@
+let x = "fruit"
+const redinFrench = "red"
+
+//reference
+function greet() {
+    console.log('Hello World')
+}
+
+greet();
+
+function ConfusioNgreet(){
+    console.log('Who are you?????????????')
+}
+//remeber to call function
+ConfusioNgreet();
+
+// gave each variable value
+let a=1
+let c=3
+let e=5
+
+function LettersAsNumbers(){
+    console.log(a+c+e)
+}
+//function is called
+ LettersAsNumbers();
+
+//adding strings creates a full word
+function myName(){
+    console.log('s'+'a'+'c'+'h'+'o'+'r'+'r'+'a')
+}
+//function is called
+//a called function is an arguement 
+myName();
+
+fruit1 = 'apple'
+fruit2 = 'banana'
+fruit3 = 'grape'
+
+function retrieveFruits(){
+    let fruit1 = 'apple',
+        fruit2 = 'banana',
+        fruit3 = 'grape';
+    
+return [ fruit1, fruit2, fruit3];
+retrieveFruits()
+}
