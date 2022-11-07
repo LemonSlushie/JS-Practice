@@ -1,0 +1,41 @@
+function todaysDate(){
+    console.log('November 7th, 2022')
+}
+todaysDate()
+
+function Frenchsalutation(){
+    console.log ('Au revoir')
+}
+Frenchsalutation()
+
+function compliment(){
+    console.log ('Hey beautiful')
+}
+compliment()
+
+function SeeYouTommorow(){
+    console.log ('A demain')
+}
+SeeYouTommorow()
+
+//function declaration
+function sumOf2plus2(){
+    console.log (2+2)
+};
+sumOf2plus2()
+
+//function expression
+const twoplustwo = function sumOf2plus2(){
+    console.log (2+2)
+};
+twoplustwo()
+
+//reference
+life = 100;
+console.log (life-20)
+
+age= 34
+name = 'Jerry'
+
+console.log ('Hello my name is' + name + 'and Im' +age+ 'years old')
+
